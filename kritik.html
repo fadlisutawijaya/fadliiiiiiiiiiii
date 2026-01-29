@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritik & Saran - Sneaker Hub | Toko Sepatu Online Terpercaya</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Sneaker Hub</a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="produk.html">Produk</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                        <li><a href="kontak.html">Kontak</a></li>
+                        <li><a href="kritik.html" class="active">Kritik & Saran</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container text-center">
+            <h1 class="fade-in-up">Kritik & Saran</h1>
+            <p class="fade-in-up">Masukan Anda sangat berharga untuk kemajuan Sneaker Hub</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="container">
+        <section class="mb-5">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="feature-card">
+                        <h2 class="text-center mb-4">Beri Kami Masukan</h2>
+                        <form id="feedbackForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Nama Lengkap</label>
+                                        <input type="text" class="form-control" id="feedbackName" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="feedbackEmail" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Rating</label>
+                                        <div class="star-rating" id="starRating">
+                                            <span class="star" data-rating="1">⭐</span>
+                                            <span class="star" data-rating="2">⭐</span>
+                                            <span class="star" data-rating="3">⭐</span>
+                                            <span class="star" data-rating="4">⭐</span>
+                                            <span class="star" data-rating="5">⭐</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Kategori Masukan</label>
+                                        <select class="form-select" id="feedbackCategory">
+                                            <option value="">Pilih Kategori</option>
+                                            <option value="produk">Kualitas Produk</option>
+                                            <option value="pelayanan">Pelayanan</option>
+                                            <option value="pengiriman">Pengiriman</option>
+                                            <option value="website">Website</option>
+                                            <option value="lainnya">Lainnya</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <label class="form-label">Masukan Anda</label>
+                                        <textarea class="form-control" id="feedbackMessage" rows="5" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input" id="anonymous">
+                                        <label class="form-check-label" for="anonymous">
+                                            Sembunyikan identitas saya (anonim)
+                                        </label>
+                                    </div>
+                                    <input type="hidden" id="rating" name="rating" value="0">
+                                </div>
+                                <div class="col-12 text-center">
+                                    <button type="submit" class="btn">Kirim Masukan</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Testimonial Pelanggan</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
+                        <h5>Ahmad Rizki</h5>
+                        <p>"Sepatu yang saya beli sangat berkualitas dan nyaman. Packaging aman dan pengiriman tepat waktu. Recommended!"</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
+                        <h5>Siti Nurjanah</h5>
+                        <p>"Pelayanan sangat ramah dan responsif. Edukasi perawatan sepatu yang diberikan sangat membantu untuk menjaga kualitas sepatu."</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card">
+                        <div class="star-rating mb-2">⭐⭐⭐⭐⭐</div>
+                        <h5>Budi Santoso</h5>
+                        <p>"Koleksi sepatu Sneaker Hub sangat lengkap dan berkualitas. Saya sudah repeat order beberapa kali dan selalu puas!"</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Statistik Kepuasan</h2>
+            <div class="row g-4 text-center">
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">⭐</div>
+                        <h3>4.9/5</h3>
+                        <p>Rating Rata-rata</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">💬</div>
+                        <h3>2,500+</h3>
+                        <p>Testimonial</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">👍</div>
+                        <h3>98%</h3>
+                        <p>Respon Positif</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">📈</div>
+                        <h3>85%</h3>
+                        <p>Improvement Rate</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-5">
+            <h2 class="text-center mb-4">Proses Feedback Kami</h2>
+            <div class="row g-4">
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">📝</div>
+                        <h5>1. Kumpulkan</h5>
+                        <p>Kami mengumpulkan semua masukan dari pelanggan melalui berbagai channel</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h5>2. Analisis</h5>
+                        <p>Tim kami menganalisis setiap masukan untuk identifikasi area perbaikan</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔧</div>
+                        <h5>3. Implementasi</h5>
+                        <p>Kami menerapkan perbaikan berdasarkan masukan yang diterima</p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="feature-card">
+                        <div class="feature-icon">📞</div>
+                        <h5>4. Follow Up</h5>
+                        <p>Kami melakukan follow up untuk memastikan kepuasan pelanggan</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="text-center">
+            <div class="feature-card">
+                <div class="feature-icon">💬</div>
+                <h2>Masukan Anda Sangat Berharga!</h2>
+                <p class="mb-4">Bantu kami menjadi lebih baik dengan memberikan masukan dan saran Anda</p>
+                <a href="#feedbackForm" class="btn">Beri Masukan Sekarang</a>
+                <a href="kontak.html" class="btn btn-secondary">Hubungi Langsung</a>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container text-center">
+            <p>&copy; 2024 Sneaker Hub. Semua hak dilindungi. | Toko Sepatu Online Terpercaya</p>
+        </div>
+    </footer>
+    <script>
+        let selectedRating = 0;
+        const stars = document.querySelectorAll('.star');
+        
+        stars.forEach(star => {
+            star.addEventListener('click', function() {
+                selectedRating = parseInt(this.dataset.rating);
+                document.getElementById('rating').value = selectedRating;
+                updateStars();
+            });
+            
+            star.addEventListener('mouseenter', function() {
+                const hoverRating = parseInt(this.dataset.rating);
+                highlightStars(hoverRating);
+            });
+        });
+        
+        document.getElementById('starRating').addEventListener('mouseleave', function() {
+            updateStars();
+        });
+        
+        function updateStars() {
+            highlightStars(selectedRating);
+        }
+        
+        function highlightStars(rating) {
+            stars.forEach((star, index) => {
+                if (index < rating) {
+                    star.style.opacity = '1';
+                    star.style.transform = 'scale(1.2)';
+                } else {
+                    star.style.opacity = '0.3';
+                    star.style.transform = 'scale(1)';
+                }
+            });
+        }
+        
+        updateStars();
+        
+        document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            
+            const formData = new FormData(event.target);
+            const data = Object.fromEntries(formData);
+            
+            const notification = document.createElement('div');
+            notification.className = 'alert alert-success position-fixed top-0 start-50 translate-middle-x mt-3';
+            notification.style.zIndex = '9999';
+            notification.style.minWidth = '400px';
+            notification.innerHTML = `
+                <h5 class="alert-heading">✅ Terima Kasih!</h5>
+                <p>Terima kasih ${data.anonymous ? 'Anonim' : data.feedbackName} atas masukan Anda. Setiap kritik dan saran dari Anda sangat berharga untuk kemajuan Sneaker Hub.</p>
+                ${selectedRating > 0 ? `<p>Rating Anda: ${'⭐'.repeat(selectedRating)}</p>` : ''}
+            `;
+            
+            document.body.appendChild(notification);
+            
+            event.target.reset();
+            selectedRating = 0;
+            updateStars();
+            
+            setTimeout(() => {
+                notification.remove();
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
